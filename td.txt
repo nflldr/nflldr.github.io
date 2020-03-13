@@ -1,5 +1,3 @@
-# nflldr.github.io
-直播源
 CCTV1 高清,http://gslbserv.itv.cmvideo.cn:80/000000001000/reallive-hdcctv1/1.m3u8?channel-id=ystenlive&Contentid=reallive-hdcctv1&livemode=1&stbId=003901FF0001181003FC08A5C8C6C037&userToken=85a5a98cdcab4d800a8ec29a9d917e8d10vv&usergroup=g10045200000&version=1.0&owaccmark=reallive-hdcctv1&owchid=ystenlive&owsid=7951969344461655967
 CCTV1 高清,http://gslbserv.itv.cmvideo.cn:80/000000001000/reallive-cctv1/1.m3u8?channel-id=ystenlive&Contentid=reallive-cctv1&livemode=1&stbId=003901FF0001181003FC08A5C8C6C037&userToken=85a5a98cdcab4d800a8ec29a9d917e8d10vv&usergroup=g10045200000&version=1.0&owaccmark=reallive-cctv1&owchid=ystenlive&owsid=7951969344461488492
 CCTV2 高清,http://gslbserv.itv.cmvideo.cn:80/000000001000/5353323539453949720/1.m3u8?channel-id=ystenlive&Contentid=5353323539453949720&livemode=1&stbId=003901FF0001181003FC08A5C8C6C037&userToken=85a5a98cdcab4d800a8ec29a9d917e8d10vv&usergroup=g10045200000&version=1.0&owaccmark=5353323539453949720&owchid=ystenlive&owsid=7951969344460973865
