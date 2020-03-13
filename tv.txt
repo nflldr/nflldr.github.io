@@ -844,46 +844,48 @@ WHTV-7,http://httpdvb.slave.homed.hrtn.net/playurl?playtype=live&amp;protocol=hl
 湖北生活,http://httpdvb.slave.homed.hrtn.net/playurl?playtype=live&amp;protocol=hls&amp;accesstoken=R5D22D2B7U309E0093K7735BBEDIAC2DC601PBM3187915V10453Z6B7EDWE3620470C71&amp;playtoken=ABCDEFGHIGK&amp;programid=4200000018.m3u8
 
 央视频,#genre#
-CCTV 1,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000210103.m3u8
-CCTV 2,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000203603.m3u8
-CCTV 3,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000203803.m3u8
-CCTV 4,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000204803.m3u8
-CCTV 5,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000205103.m3u8
-CCTV 5+,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000204503.m3u8
-CCTV 6,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000203303.m3u8
-CCTV 7,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000510003.m3u8
-CCTV 8,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000203903.m3u8
-CCTV 9,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000499403.m3u8
-CCTV 10,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000203503.m3u8
-CCTV 11,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000204103.m3u8
-CCTV 12,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000202603.m3u8
-CCTV 13,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000204603.m3u8
-CCTV 14,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000204403.m3u8
-CCTV 15,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000205003.m3u8
-CCTV 17,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000204203.m3u8
-CCTV 4K,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000266303.m3u8
-CGTN,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2001656803.m3u8
-湖南卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000296203.m3u8
-东方卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000292403.m3u8
-黑龙江卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000293903.m3u8
-广东卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000292703.m3u8
-深圳卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000292203.m3u8
-江苏卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000295603.m3u8
-浙江卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000295503.m3u8
-江苏卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000295603.m3u8
-深圳卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000292203.m3u8
-北京卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000272103.m3u8
-海南卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000291503.m3u8
-山东卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000294803.m3u8
-江西卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000294103.m3u8
-湖北卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000294503.m3u8
-河南卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000296103.m3u8
-河北卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000293403.m3u8
-贵州卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000293303.m3u8
-东南卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000292503.m3u8
-广西卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000294203.m3u8
-四川卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000295003.m3u8
-辽宁卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000281303.m3u8
-重庆卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000297803.m3u8
-安徽卫视,http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000298003.m3u8
-
+CCTV-4k,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000266303.m3u8
+CCTV-1,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/013/2000210103.m3u8
+CCTV-2,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000203603.m3u8
+CCTV-3,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000203803.m3u8
+CCTV-4,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000204803.m3u8
+CCTV-5,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000205103.m3u8
+CCTV-5+,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000204503.m3u8
+CCTV-6,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000203303.m3u8
+CCTV-7,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000510003.m3u8
+CCTV-8,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000203903.m3u8
+CCTV-9,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000499403.m3u8
+CCTV-10,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000203503.m3u8
+CCTV-11,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000204103.m3u8
+CCTV-12,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000202603.m3u8
+CCTV-13,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/013/2000204603.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000204603.m3u8
+CCTV-14,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000204403.m3u8
+CCTV-15,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000205003.m3u8
+CCTV-17,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000204203.m3u8
+北京卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000272103.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000272101.m3u8
+辽宁卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000281303.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000281301.m3u8
+吉林卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000284703.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000284701.m3u8
+宁夏卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000285103.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000285101.m3u8
+海南卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000291503.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000291501.m3u8
+深圳卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000292203.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000292201.m3u8
+东方卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000292403.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000292401.m3u8
+东南卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000292503.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000292501.m3u8
+广东卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000292703.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000292701.m3u8
+河北卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000293403.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000293401.m3u8
+贵州卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000293303.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000293301.m3u8
+江西卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294103.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294101.m3u8
+黑龙江卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000293903.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000293901.m3u8
+湖北卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294503.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294501.m3u8
+广西卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294203.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294201.m3u8
+陕西卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294403.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294401.m3u8
+山东卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294803.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294801.m3u8
+甘肃卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294603.m3u8
+青海卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294703.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000294701.m3u8
+天津卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000295103.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000295101.m3u8
+四川卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000295003.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000295001.m3u8
+浙江卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000295503.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000295501.m3u8
+江苏卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000295603.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000295601.m3u8
+河南卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000296103.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000296101.m3u8
+湖南卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000296203.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000296201.m3u8
+重庆卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000297803.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000297801.m3u8
+安徽卫视,http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000298003.m3u8#http://111.48.79.174/tlivecloud-cdn.ysp.cctv.cn/013/2000298001.m3u8
