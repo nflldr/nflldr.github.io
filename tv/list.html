@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>我的直播频道列表</title>
+<style type="text/css">
+* {margin: 0;padding: 0;outline: none;}
+html {height: 100%; }
+*html{background-image:url(about:blank);background-attachment:fixed;}
+body{height:100%;background:#232323;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; }
+/*定位*/
+.none { display:none }
+/*通用*/
+.bingdoum3u8{ width:100%;height:100%;}
+.main {overflow:hidden; zoom:1 }
+.main .left-sider { float:left; width:100%; }
+.operate h3 { font-family: "Microsoft YaHei",微软雅黑; font-size:16px; background:#232323 url("static/images/u8d891af2b286481fbc35903efb3ee265n.png") 15px center no-repeat;_background:#232323 url("https://ae01.alicdn.com/kf/Ub0afd996eae24cfeb0466bae31f9a699r.png") 15px center no-repeat; height:43px; line-height:43px; padding-left:12px;color:#888;text-indent:30px; }
+.operate ul li { display:inline; margin-bottom:1px;}
+.operate ul li a { text-decoration:none; font-size:14px; color:#888; display:block;  height:43px;  line-height:43px;  }
+.operate ul li a.noline { border-bottom:none; }
+.operate ul li a:hover{ color:#eee;text-decoration:none;background:url("static/images/u595f8142ce3e4314941810ff113678b7b.png") 10px 10px no-repeat;_background:url("https://ae01.alicdn.com/kf/U71f799fe9d7d46e3a18399a5325d3da0R.png") 10px 10px no-repeat;}
+.operate ul li a.sel{ color:#eee;text-decoration:none;background:url("static/images/u61b89571da6d4ff99488b9e36e382822q.png") 10px 10px no-repeat;_background:url("https://ae01.alicdn.com/kf/Uf76af22c42c54c86997cf97b5dbe85eb8.png") 10px 10px no-repeat;}
+.operate ul li a.selected:hover { color:#fff; }
+.operate ul li .selected { background-color:#eee;  background-position:200px -9px; color:#fff; }
+.operate ul li {  display:inline-block; width:100%; position: relative; min-height:43px; _height:43px; z-index: 10; zoom:1 }
+.operate ul li h4 { cursor:pointer; background:#2e2e2e url(static/images/u89f8a8d3280442909ba9b3f42ece14835.png) no-repeat 10px 18px; padding-left:30px; text-decoration:none; font-size:14px; color:#999; display:block;  line-height:43px; font-weight:normal; }
+.operate ul li.noline { border-bottom:none; }
+.operate ul li h4:hover { color:#eee; text-decoration:none; }
+.operate ul li.selected h4 { background-position:10px -37px; }
+.operate ul li a { }
+.operate ul li .on a { color:#eee; font-weight:bold; }
+.operate ul li a:hover { color:#eee; text-decoration:none;}
+.bg-color { background-color:#8caf00; }
+.operate li .list-item { padding:5px 0; position:relative; zoom:1;background:#232323; }
+.operate li .list-item p { padding-left:8px;white-space:nowrap;}
+.operate li .list-item a { background:none;  border:none; color: #888; display:block; height:32px; line-height: 32px; margin: 0 -1px 0 1px; padding-left: 30px;  position: relative; text-decoration: none; font-size:12px;background:url("static/images/u211e4a0c3e6445d48f81f97643ca6d39q.png") 10px 10px no-repeat;_background:url("https://ae01.alicdn.com/kf/U83dc719bbd484e6588bd244bd461bc7bb.png") 10px 10px no-repeat; }
+</style>
+<script src="static/js/jquery.min.js" type="text/javascript"></script>
+<script>
+// JavaScript Document
+function navList(id) {
+    var $obj = $("#J_navlist"), $item = $("#J_nav_" + id);
+    $item.addClass("on").parent().removeClass("none").parent().addClass("selected");
+    $obj.find("h4").hover(function () {
+        $(this).addClass("hover");
+    }, function () {
+        $(this).removeClass("hover");
+    });
+    $obj.find("p").hover(function () {
+        if ($(this).hasClass("on")) { return; }
+        $(this).addClass("hover");
+    }, function () {
+        if ($(this).hasClass("on")) { return; }
+        $(this).removeClass("hover");
+    });
+    $obj.find("h4").click(function () {
+        var $div = $(this).siblings(".list-item");
+        if ($(this).parent().hasClass("selected")) {
+            $div.slideUp(600);
+            $(this).parent().removeClass("selected");
+        }
+        if ($div.is(":hidden")) {
+            $("#J_navlist li").find(".list-item").slideUp(600);
+            $("#J_navlist li").removeClass("selected");
+            $(this).parent().addClass("selected");
+            $div.slideDown(600);
+
+        } else {
+            $div.slideUp(600);
+        }
+    });
+}
+</script>
+</head>
+<body oncontextmenu="return false" onselectstart="return false">
+<div class="bingdoum3u8">
+<div class="main">
+<div class="left-sider">
+<div class="operate">
+<h4 style="color:#FF6EC7"> 直播列表<a style="margin-left:5px;color:#888;text-decoration:none;font-size:13px;" rel="nofollow" href='javascript:location.reload()'>(刷新)</a></h4>
+<ul id="J_navlist">
+
+<li>
+<h4>央视</h4>
+<div class="list-item none">
+<h4><a href="./m3u8/ys/cctv1.html" target="_parent" target="iframe-player">CCTV-1综合</a></h4>
+<h4><a href="./m3u8/ys/cctv2.html" target="_parent" target="iframe-player">CCTV-2财经</a></h4>
+<h4><a href="./m3u8/ys/cctv3.html" target="_parent" target="iframe-player">CCTV-3综艺</a></h4>
+<h4><a href="./m3u8/ys/cctv4.html" target="_parent" target="iframe-player">CCTV-4中文国际</a></h4>
+<h4><a href="./m3u8/ys/cctv5.html" target="_parent" target="iframe-player">CCTV-5体育</a></h4>
+<h4><a href="./m3u8/ys/cctv5+.html" target="_parent" target="iframe-player">CCTV-5+体育赛事</a></h4>
+<h4><a href="./m3u8/ys/cctv6.html" target="_parent" target="iframe-player">CCTV-6电影</a></h4>
+<h4><a href="./m3u8/ys/cctv7.html" target="_parent" target="iframe-player">CCTV-7国防军事</a></h4>
+<h4><a href="./m3u8/ys/cctv8.html" target="_parent" target="iframe-player">CCTV-8电视剧</a></h4>
+<h4><a href="./m3u8/ys/cctv9.html" target="_parent" target="iframe-player">CCTV-9纪实</a></h4>
+<h4><a href="./m3u8/ys/cctv10.html" target="_parent" target="iframe-player">CCTV-10科教</a></h4>
+<h4><a href="./m3u8/ys/cctv11.html" target="_parent" target="iframe-player">CCTV-11戏曲</a></h4>
+<h4><a href="./m3u8/ys/cctv12.html" target="_parent" target="iframe-player">CCTV-12社会与法</a></h4>
+<h4><a href="./m3u8/ys/cctv13.html" target="_parent" target="iframe-player">CCTV-13新闻</a></h4>
+<h4><a href="./m3u8/ys/cctv14.html" target="_parent" target="iframe-player">CCTV-14少儿</a></h4>
+<h4><a href="./m3u8/ys/cctv15.html" target="_parent" target="iframe-player">CCTV-15音乐</a></h4>
+<h4><a href="./m3u8/ys/cctv17.html" target="_parent" target="iframe-player">CCTV-17农业农村</a></h4>
+</div>
+</li>
+<li>
+<h4>卫视</h4>
+<div class="list-item none">
+<h4><a href="./m3u8/ws/gdws.html" target="_parent" target="iframe-player">广东卫视</a></h4>
+<h4><a href="./m3u8/hk/yxxw.html" target="_parent" target="iframe-player">有线新闻</a></h4>
+<h4><a href="./m3u8/hk/amyx.html" target="_parent" target="iframe-player">澳门有线</a></h4>
+<h4><a href="./m3u8/hk/phk.html" target="_parent" target="iframe-player">凤凰香港</a></h4>
+<h4><a href="./m3u8/hk/pcc.html" target="_parent" target="iframe-player">凤凰中文</a></h4>
+<h4><a href="./m3u8/hk/pin.html" target="_parent" target="iframe-player">凤凰资讯</a></h4>
+</div>
+</li>
+</ul>
+<script type="text/javascript" language="javascript">
+			navList(12);
+		</script>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+        window.onload = function(){
+            document.onkeydown = function (){
+                var e = window.event || arguments[0];
+                //F12
+                if(e.keyCode == 123){
+                    return false;
+                //Ctrl+Shift+I
+                }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                    return false;
+                //Shift+F10
+                }else if((e.shiftKey) && (e.keyCode == 121)){
+                    return false;
+                //Ctrl+U
+                }else if((e.ctrlKey) && (e.keyCode == 85)){
+                    return false;
+                }
+            };
+            document.oncontextmenu = function (){
+                return false;
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
