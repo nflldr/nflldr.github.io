@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title></title>
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+</head>
+
+<body>
+<script>
+    $.ajaxPrefilter(function (options) {
+        if (options.crossDomain && jQuery.support.cors) {
+            var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+            options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
+            //options.url = "http://cors.corsproxy.io/url=" + options.url;
+        }
+    });
+var vid=location.href.split('html?id=')[1];
+if(vid=='cctv1'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=63143&terminalType=mobile&busiType=live'}//CCTV1
+if(vid=='cctv2'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=63144&terminalType=mobile&busiType=live'}//CCTV2
+if(vid=='cctv3'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70070&terminalType=mobile&busiType=live'}//CCTV3
+if(vid=='cctv4'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70071&terminalType=mobile&busiType=live'}//CCTV4
+if(vid=='cctv5'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70072&terminalType=mobile&busiType=live'}//CCTV5
+if(vid=='cctv5p'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70125&terminalType=mobile&busiType=live'}//CCTV5+
+if(vid=='cctv6'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70073&terminalType=mobile&busiType=live'}//CCTV6
+if(vid=='cctv7'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70074&terminalType=mobile&busiType=live'}//CCTV7
+if(vid=='cctv8'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70075&terminalType=mobile&busiType=live'}//CCTV8
+if(vid=='cctv9'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70077&terminalType=mobile&busiType=live'}//CCTV9
+if(vid=='cctv10'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70076&terminalType=mobile&busiType=live'}//CCTV10
+if(vid=='cctv11'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70078&terminalType=mobile&busiType=live'}//CCTV11
+if(vid=='cctv12'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70079&terminalType=mobile&busiType=live'}//CCTV12
+if(vid=='cctv13'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70080&terminalType=mobile&busiType=live'}//CCTV13
+if(vid=='cctv14'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70081&terminalType=mobile&busiType=live'}//CCTV14
+if(vid=='cctv15'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70082&terminalType=mobile&busiType=live'}//CCTV15
+if(vid=='fyyy'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70118&terminalType=mobile&busiType=live'}//CCTV风云音乐
+if(vid=='fyzq'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70120&terminalType=mobile&busiType=live'}//CCTV风云足球
+if(vid=='ystq'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70122&terminalType=mobile&busiType=live'}//CCTV央视台球
+
+if(vid=='hnws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70090&terminalType=mobile&busiType=live'}//湖南卫视
+if(vid=='zjws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70100&terminalType=mobile&busiType=live'}//浙江卫视
+if(vid=='cqws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70101&terminalType=mobile&busiType=live'}//重庆卫视
+if(vid=='sdws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70102&terminalType=mobile&busiType=live'}//山东卫视
+if(vid=='jsws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70103&terminalType=mobile&busiType=live'}//江苏卫视
+if(vid=='gzws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70104&terminalType=mobile&busiType=live'}//贵州卫视
+if(vid=='dnws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70105&terminalType=mobile&busiType=live'}//东南卫视
+if(vid=='scws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70106&terminalType=mobile&busiType=live'}//四川卫视
+if(vid=='lnws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70107&terminalType=mobile&busiType=live'}//辽宁卫视
+if(vid=='hbws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70108&terminalType=mobile&busiType=live'}//湖北卫视
+if(vid=='bjws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70109&terminalType=mobile&busiType=live'}//北京卫视
+if(vid=='dfws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70110&terminalType=mobile&busiType=live'}//东方卫视
+if(vid=='lyws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70111&terminalType=mobile&busiType=live'}//海南卫视
+if(vid=='ahws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70112&terminalType=mobile&busiType=live'}//安徽卫视
+if(vid=='qhws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70113&terminalType=mobile&busiType=live'}//青海卫视
+if(vid=='hljws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70114&terminalType=mobile&busiType=live'}//黑龙江卫视
+if(vid=='gdws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70115&terminalType=mobile&busiType=live'}//广东卫视
+if(vid=='jlws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70116&terminalType=mobile&busiType=live'}//吉林卫视
+if(vid=='szws'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70117&terminalType=mobile&busiType=live'}//深圳卫视
+
+if(vid=='hnjs'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70091&terminalType=mobile&busiType=live'}//湖南经视
+if(vid=='hnyl'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70092&terminalType=mobile&busiType=live'}//湖南娱乐
+if(vid=='hnds'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70093&terminalType=mobile&busiType=live'}//湖南都市
+if(vid=='hngg'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70094&terminalType=mobile&busiType=live'}//湖南公共
+if(vid=='hndsj'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70095&terminalType=mobile&busiType=live'}//湖南电视剧
+if(vid=='jyjs'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70096&terminalType=mobile&busiType=live'}//金鹰纪实
+if(vid=='jykt'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70097&terminalType=mobile&busiType=live'}//金鹰卡通
+if(vid=='hndy'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70098&terminalType=mobile&busiType=live'}//湖南电影
+if(vid=='hnjy'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70099&terminalType=mobile&busiType=live'}//湖南教育
+if(vid=='klcd'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70121&terminalType=mobile&busiType=live'}//快乐垂钓
+
+if(vid=='csxw'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70086&terminalType=mobile&busiType=live'}//长沙新闻
+if(vid=='cszf'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70087&terminalType=mobile&busiType=live'}//长沙政法
+if(vid=='csys'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70088&terminalType=mobile&busiType=live'}//长沙影视
+if(vid=='csnx'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70089&terminalType=mobile&busiType=live'}//长沙女性
+if(vid=='csxxwzh'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70129&terminalType=mobile&busiType=live'}//长沙县新闻综合
+if(vid=='csxdssh'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70130&terminalType=mobile&busiType=live'}//长沙县都市生活
+
+if(vid=='jllq'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70123&terminalType=mobile&busiType=live'}//吉林篮球
+if(vid=='jbty'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70124&terminalType=mobile&busiType=live'}//劲爆体育
+if(vid=='qjs'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70126&terminalType=mobile&busiType=live'}//全纪实
+if(vid=='mryy'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70127&terminalType=mobile&busiType=live'}//CBN每日影院
+if(vid=='xfjc'){url='https://xs0.csxxsj.cn/cms/interfaces/vod/v1/play?clientId=0&channelId=70128&terminalType=mobile&busiType=live'}//CBN幸福剧场
+    $.get(url,
+        function (data) {
+        var result=JSON.stringify(data);
+        m3u8=result.match(/"url":"(.*?)"/)[1];
+        location.href='http://24htv.ucoz.com/wltv/p/vlc.html?id='+m3u8;
+        });
+</script>
+</body>
+</html>
