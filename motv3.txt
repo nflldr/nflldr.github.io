@@ -889,24 +889,12 @@
   ],
   "parses": [
     {
-      "name": "暮光解析",
-      "url": "https://muguang.mgtv.com.muguangys.com/jiexi.php?url="
-    },
-    {
-      "name": "BL",
-      "url": "https://vip.bljiex.com/?v="
-    },
-    {
       "name": "OK",
       "url": "https://okjx.cc/?url="
     },
     {
       "name": "新月亮",
       "url": "https://vip.jianjians.com/?url="
-    },
-    {
-      "name": "江湖云",
-      "url": "https://api.jhdyw.vip/?url="
     },
     {
       "name": "Parwix解析",
