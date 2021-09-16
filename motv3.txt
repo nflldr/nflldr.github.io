@@ -320,13 +320,6 @@
       ]
     },
     {
-      "key": "BL视频",
-      "name": "BL视频",
-      "type": 0,
-      "api": "https://bljiex.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-    },
-    {
       "key": "优全影视",
       "name": "优全影视",
       "type": 0,
