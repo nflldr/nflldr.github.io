@@ -1,5 +1,5 @@
 点播：
-极品资源,https://www.jpysvip.net/api.php/provide/vod/at/xml/,不解析
+极品资源,https://www.jpysvip.net/api.php/provide/vod/at/xml/,空
 快播云,http://www.kuaibozy.com/api.php/provide/vod/at/xml/,不解析
 39影视,https://www.39kan.com/api.php/provide/vod/at/xml,不解析
 安逸影院,http://dy.51isu.com:11801/api.php/provide/vod/at/xml,不解析
@@ -20,7 +20,7 @@ M3U8.TV,http://www.zycaiji.net:7788/api.php/provide/vod/at/xml/,不解析
 爱看啦,http://v.aik.la/api.php/provide/vod/at/xml,解析
 结束
 解析：
-解析一,https://okjx.cc/?url=
-解析二,https://api.jhdyw.vip/?url=
-解析三,https://vip.jianjians.com/?url=
+解析一,https://okjx.cc/?url=,空
+解析二,https://api.jhdyw.vip/?url=,空
+解析三,https://vip.jianjians.com/?url=,空
 结束
