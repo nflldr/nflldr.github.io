@@ -14,7 +14,7 @@ M3U8.TV,http://www.zycaiji.net:7788/api.php/provide/vod/at/xml/,不解析
 任我云,https://www.renwoyun.cn/api.php/provide/vod/at/xml,不解析
 电牛资源,https://www.dianyingn.com/api.php/provide/vod/at/xml/,不解析
 番茄资源,http://api.fqzy.cc/api.php/provide/vod/at/xml,不解析
-爱看啦,http://v.aik.la/api.php/provide/vod/at/xml,不解析
+爱看啦,http://v.aik.la/api.php/provide/vod/at/xml,https://okjx.cc/?url=
 结束
 解析：
 线路一,https://okjx.cc/?url=
