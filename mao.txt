@@ -2,7 +2,7 @@
     "sites": [
         {
             "key": "默认主页（月底停用启用备用链接）",
-            "name": "默认主页（月底停用启用备用链接）",
+            "name": "默认主页（月底停）",
             "type": 0,
             "api": "https://www.hongniuzy1.com/inc/seacms.php",
             "playUrl": "https://www.hongniujiexi.com/m3u8/?url="
