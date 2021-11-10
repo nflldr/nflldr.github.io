@@ -1,4 +1,4 @@
-🇨🇳央视,#genre#
+央视,#genre#
 CCTV1,http://39.135.33.137:80/cdnrrs.gx.chinamobile.com/TVOD/77777777/224/3221225674/index.m3u8?
 CCTV2,http://39.135.33.49:80/cdnrrs.gx.chinamobile.com/TVOD/77777777/224/3221225676/index.m3u8?
 CCTV3,http://39.135.33.42:80/cdnrrs.gx.chinamobile.com/TVOD/77777777/224/3221225677/index.m3u8?
